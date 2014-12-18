@@ -1,0 +1,11 @@
+{
+  "name": "reapp",
+  "version": "0.0.1",
+  "description": "new age app platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nate Wienert",
+  "license": "MIT"
+}
