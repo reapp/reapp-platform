@@ -1,6 +1,6 @@
 {
-  "name": "reapp",
-  "version": "0.0.1",
+  "name": "reapp-cli",
+  "version": "0.1.0",
   "description": "new age app platform",
   "main": "index.js",
   "scripts": {
