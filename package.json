@@ -6,14 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "packages": {
-    "reapp-component": "*",
-    "reapp-raf-batching": "*",
-    "reapp-reducer": "*",
-    "reapp-request": "*",
-    "reapp-routes": "*",
-    "reapp-object-assign": "*"
-  },
   "author": "Nate Wienert",
   "license": "MIT",
   "devDependencies": {
@@ -26,6 +18,12 @@
     "karma-webpack": "~1.3.1"
   },
   "dependencies": {
+    "reapp-component": "*",
+    "reapp-raf-batching": "*",
+    "reapp-reducer": "*",
+    "reapp-request": "*",
+    "reapp-routes": "*",
+    "reapp-object-assign": "*",
     "react-tap-event-plugin": "~0.1.3"
   },
   "peerDependencies": {
