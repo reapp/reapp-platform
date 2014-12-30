@@ -1,5 +1,7 @@
-### reapp
+### reapp platform
 
-reapp is a new way to build javascript apps, targeting all platforms.
+This repo is to help simplify package.json with reapp apps.
 
-It's also not ready yet :)
+Compiles all the smaller reapp modules together, and provides helper functions.
+
+See the package.json for each individual sub-module, and ./src for helper functions.
