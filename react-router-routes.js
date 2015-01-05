@@ -1,1 +1,0 @@
-module.exports = require('reapp-routes/react-router');

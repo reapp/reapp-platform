@@ -1,4 +1,4 @@
 module.exports = {
-  listener: require('./listener'),
-  routedViewListHandler: require('./routedViewListHandler'),
+  storeRefreshMixin: require('./storeRefreshMixin'),
+  RoutedViewListMixin: require('./RoutedViewListMixin'),
 };

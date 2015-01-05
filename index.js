@@ -1,19 +1,17 @@
-var React = require('react');
+// this merges together the tiniest pieces of helpers
+
+var Helpers = require('./src/helpers/Helpers');
+var Mixins = require('./src/mixins/Mixins');
+var initTouch = require('./src/initTouch');
+var Env = require('./src/Env');
 
 require('reapp-object-assign');
 
-// this won't be necessary after React 1.0
-function initTouch() {
-  React.initializeTouchEvents(true);
-  var InjectTapEventPlugin = require('react-tap-event-plugin');
-  var isTouchDevice = 'ontouchstart' in document.documentElement;
-  if (isTouchDevice)
-    InjectTapEventPlugin();
-}
-
-module.exports = {
-  initTouch,
-  env: require('./src/env'),
-  helpers: require('./src/helpers/helpers'),
-  mixins: require('./src/mixins/mixins')
-};
+module.exports = Object.assign(
+  Helpers,
+  Mixins,
+  {
+    initTouch,
+    Env,
+  }
+);
