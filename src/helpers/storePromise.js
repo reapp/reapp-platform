@@ -1,4 +1,4 @@
-var { Promise } = require('bluebird');
+// var { Promise } = require('bluebird');
 
 module.exports = function(store, conditional) {
   return new Promise((res, rej) => {
