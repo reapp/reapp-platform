@@ -1,5 +1,3 @@
-// this merges together the tiniest pieces of helpers
-
 var Helpers = require('./src/helpers/Helpers');
 var Mixins = require('./src/mixins/Mixins');
 var Env = require('./src/Env');
@@ -12,6 +10,6 @@ module.exports = Object.assign(
   Helpers,
   Mixins,
   {
-    Env,
+    Env
   }
 );
