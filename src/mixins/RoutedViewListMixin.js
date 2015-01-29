@@ -23,9 +23,9 @@ module.exports = {
     return this.numActiveRoutes() - this.getRouteDepth();
   },
 
-  routedSubRoute() {
+  routedSubRoute(props) {
     return this.hasChildRoute() && (
-      this.getRouteHandler(Object.assign(this.props, { key: this.subRouteKey() }))
+      this.getRouteHandler(Object.assign({}, this.props, { key: this.subRouteKey() }, props))
     );
   },
 
