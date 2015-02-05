@@ -1,11 +1,11 @@
 var Helpers = require('./src/helpers/Helpers');
 var Mixins = require('./src/mixins/Mixins');
 var Env = require('./src/Env');
-var initTouch = require('./src/initTouch');
 
+// intall Object.assign
 require('reapp-object-assign');
-initTouch();
 
+// export helpers, mixins, env
 module.exports = Object.assign(
   Helpers,
   Mixins,

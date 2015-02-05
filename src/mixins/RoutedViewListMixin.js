@@ -25,7 +25,9 @@ module.exports = {
 
   routedSubRoute(props) {
     return this.hasChildRoute() && (
-      this.getRouteHandler(Object.assign({}, this.props, { key: this.subRouteKey() }, props))
+      this.getRouteHandler(
+        Object.assign({}, {key: this.subRouteKey()}, props)
+      )
     );
   },
 
