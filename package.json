@@ -1,6 +1,6 @@
 {
   "name": "reapp-platform",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "new age app platform",
   "main": "index.js",
   "scripts": {
