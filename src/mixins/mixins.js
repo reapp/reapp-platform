@@ -1,4 +1,3 @@
 module.exports = {
-  storeRefreshMixin: require('./storeRefreshMixin'),
-  RoutedViewListMixin: require('./RoutedViewListMixin'),
+  storeRefreshMixin: require('./storeRefreshMixin')
 };
