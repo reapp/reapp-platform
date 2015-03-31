@@ -9,7 +9,5 @@ require('reapp-object-assign');
 module.exports = Object.assign(
   Helpers,
   Mixins,
-  {
-    Env
-  }
+  { Env: Env }
 );
