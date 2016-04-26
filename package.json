@@ -1,6 +1,6 @@
 {
   "name": "reapp-platform",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "new age app platform",
   "repository": "https://github.com/reapp/reapp-platform",
   "main": "index.js",
